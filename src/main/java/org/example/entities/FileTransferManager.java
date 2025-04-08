@@ -76,7 +76,7 @@ public class FileTransferManager {
 
     private static String getOperationFromOriginal(String original){
         if(original!=null){
-//            System.out.println("in compare logs "+original);
+//            System.out.println("in compare logs "+original); 
             String[] parts = original.split(" : ");
             return parts[1];
         }else{

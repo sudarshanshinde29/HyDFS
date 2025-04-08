@@ -70,7 +70,7 @@ public class LRUFileCache {
         public boolean isFileOlder(String fileName) {
             FileCacheData metadata = cacheMap.get(fileName);
             if (metadata == null) {
-                return false; // File not in cache
+                return false; 
             }
             long currentTime = System.currentTimeMillis();
             long fileTime = metadata.getLastAccessed().getTime();

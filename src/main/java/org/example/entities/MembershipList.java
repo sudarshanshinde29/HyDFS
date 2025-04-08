@@ -39,7 +39,6 @@ public class MembershipList {
     }
 
     public static void removeMember(String name) {
-       // memberslist.remove(members.get(name).getId());
         members.remove(name);
         memberNames.remove(name);
     }
